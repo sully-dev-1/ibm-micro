@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import darken from "polished/lib/color/darken";
 
 export const HeaderContainer = styled.header`
     box-shadow: 0 9px 10px rgba(0,0,0,.14);
@@ -117,3 +118,16 @@ export const BottomHeader = styled.header`
         }
     }
 `;
+
+export const HeaderNav = styled.nav`
+    a {
+        color: ${({theme}) => theme.primary};
+        background-color: transparent !important;
+        font-size: 1.3rem !important;
+
+        &:hover {
+            box-shadow: none !important;
+            color: ${({ theme }) => darken(0.1, theme.primary)};
+        }
+    }
+`
