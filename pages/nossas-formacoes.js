@@ -7,7 +7,7 @@ import QaSec from '../components/QASec/QaSec';
 
 function FormationsPage() {
   return (
-    <div id="formacoes">
+    <div id="formations__page">
       <Head>
         <title>Formações | IBM - Instituto Brasileiro de Microfisioterapia</title>
         <meta name="description" content="IBM - Instituto Brasileiro de Microfisioterapia" />

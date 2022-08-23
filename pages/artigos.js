@@ -6,7 +6,7 @@ import Header from '../components/header/Header';
 
 function ArtigosPage() {
   return (
-    <div id="artigos">
+    <div id="article__page">
       <Head>
         <title>Artigos | IBM - Instituto Brasileiro de Microfisioterapia</title>
         <meta name="description" content="IBM - Instituto Brasileiro de Microfisioterapia" />

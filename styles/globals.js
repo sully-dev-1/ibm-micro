@@ -44,7 +44,7 @@ export default createGlobalStyle`
     height: 100%;
     overflow-y: hidden;
   }
-  #formacoes {
+  #formations__page {
     h1 {
       text-align: center;
       color: ${({theme}) => theme.primary};
@@ -60,7 +60,7 @@ export default createGlobalStyle`
     }
   }
 
-  #artigos {
+  #article__page {
     h1 {
       text-align: center;
       color: ${({theme}) => theme.primary};
