@@ -1,4 +1,4 @@
-import darken from "polished/lib/color/darken";
+import { darken } from 'polished';
 import styled from "styled-components";
 
 export const FormacoesContainer = styled.section`

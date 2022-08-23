@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import darken from "polished/lib/color/darken";
+import { darken } from 'polished';
 
 export const HeaderContainer = styled.header`
     box-shadow: 0 9px 10px rgba(0,0,0,.14);
