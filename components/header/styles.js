@@ -124,6 +124,11 @@ export const HeaderNav = styled.nav`
         color: ${({theme}) => theme.primary};
         background-color: transparent !important;
         font-size: 1.3rem !important;
+        padding: 0 !important;
+
+        &:first-child {
+            margin-right: 1rem;
+        }
 
         &:hover {
             box-shadow: none !important;
