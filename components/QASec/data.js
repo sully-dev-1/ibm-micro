@@ -28,7 +28,7 @@ export const Data = [
         answer: "As extensões vão sempre acrescentando novas ferramentas, novas palpações e técnicas, portanto, muitas vezes, com a formação básica, não é possível obter sucesso em alguns casos clínicos. São algumas particularidades onde a formação básica não nos permite acessar."
     },
     {
-        question: "PQual formação básica necessária para fazer o curso?",
+        question: "Qual formação básica necessária para fazer o curso?",
         answer: "É preciso ter formação em Fisioterapia. Sugerimos também um conhecimento atualizado de embriologia e anatomia palpatória, que são conceitos importantes para a agregar valor em sua formação. Mas, obrigatoriamente, a única exigência é pela formação em Fisioterapia."
     }
 ]
