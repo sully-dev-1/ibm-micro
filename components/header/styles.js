@@ -125,6 +125,9 @@ export const HeaderNav = styled.nav`
         background-color: transparent !important;
         font-size: 1.3rem !important;
         padding: 0 !important;
+        border-top: 1px solid ${({theme}) => theme.primary};
+        border-bottom: 1px solid ${({theme}) => theme.primary};
+        border-radius: 0 !important;
 
         &:first-child {
             margin-right: 1rem;
