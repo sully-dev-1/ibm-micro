@@ -85,35 +85,53 @@ export const BottomHeader = styled.header`
         justify-content: space-between;
         align-items: center;
 
-        a {
-            padding: 12px 50px;
-            border-radius: 5px;
-            background-color: ${({theme}) => theme.secondary};
-            font-family: 'Inika', serif;
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            transition: all 150ms ease-in;
-            text-align: center;
-
-            &:hover {
-                box-shadow: 0 2px 5px rgba(0,0,0,.40);
+        .header__whatsapp {
+            a {
+                padding: 12px 50px;
+                border-radius: 5px;
+                background-color: ${({theme}) => theme.secondary};
+                font-family: 'Inika', serif;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                transition: all 150ms ease-in;
+                text-align: center;
+    
+                &:hover {
+                    box-shadow: 0 2px 5px rgba(0,0,0,.40);
+                }
             }
         }
+
 
         img {
             cursor: pointer;
         }
 
-        @media screen and (max-width: 600px){
-            display: none;
+        @media screen and (max-width: 920px){
+
+            .header__whatsapp {
+                a {
+                    padding: 12px 30px;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 650px){
+            .header__whatsapp, .header__logo {
+                display: none;
+            }
+            justify-content: center;
         }
 
         @media screen and (max-width: 500px){
             flex-direction: column;
 
-            a {
-                margin-top: 2rem;
-                font-size: 1rem;
+            .header__whatsapp {
+                a {
+                    margin-top: 2rem;
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -124,6 +142,7 @@ export const HeaderNav = styled.nav`
         color: ${({theme}) => theme.primary};
         background-color: transparent !important;
         font-size: 1.3rem !important;
+        font-family: 'Inika', serif;
         padding: 0 !important;
         border-top: 1px solid ${({theme}) => theme.primary};
         border-bottom: 1px solid ${({theme}) => theme.primary};
@@ -136,6 +155,12 @@ export const HeaderNav = styled.nav`
         &:hover {
             box-shadow: none !important;
             color: ${({ theme }) => darken(0.1, theme.primary)};
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        a {
+            font-size: 1rem !important;
         }
     }
 `
