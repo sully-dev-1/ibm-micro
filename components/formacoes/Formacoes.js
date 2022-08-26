@@ -18,9 +18,17 @@ function Formacoes() {
                     alt="Formação Básica"
                 />
             </div>
-            <h3>1º Módulo &#40;A/B/C&#41;:</h3>
-            <h4>Introdução a Micro – Todas as teorias científicas da <span>BASE da Micro</span></h4>
-            <div className='formCard__infos'>
+            <p className='p__one'>Será Realizado em 2 Módulos, sendo:  1º Módulo em 6 dias e o 2º Módulo em 6 dias e meio.</p>
+            <h3>1º Módulo &#40;A/B/C&#41;</h3>
+            <span>Introdução a Microfisioterapia – Todas as teorias científicas da BASE da Micro. Micropalpação e autocorreção.</span>
+            <p className='p__two'>Estudos relacionados: Embriologia, Filogênese, Fisiologia, Anatomia, Física Quântica, Epigenética, Memória Celular, Neurociência do Toque, Psiconeuroimunologia, Influências do Ambiente no Organismo &#40;Externo e Interno&#41; e o estudo dos 3 tecidos primários da embriologia: Mesoderma, &#40;Músculo, Ossos, Articulações&#41; Ectoderma
+                &#40;SN e Pele&#41;, Circuitos Nervosos, Centros Nervosos, Endoderma – Mucosas &#40;Sistema Visceral e Órgãos&#41;.</p>
+
+            <h3>2º Módulo &#40;NP1/NP2/NP3&#41;</h3>
+            <p className='p__one'>Etiologias que afetam nosso organismo no ambiente externo.</p>
+            <p className='p__one'>Estudos relacionados: Infecções, lesões tóxicas, contusões traumáticas, lesões obstrutivas, lesões vibratórias &#40;Ondas/Frequências&#41;, toxicidades, emoções, ambiente interno &#40;Geradas/Produzidas&#41;, Existencial, &#40;Relacional, Individualidade&#41;, Essência do Ser, Capacidades e Desejos do Indivíduo com ele mesmo e em Relação aos outros &#40;Mundo&#41;, Terreno &#40;Campo Morfogenético&#41;, Forma dos Genes, História de Nossa Construção &#40;Familiar e com Meio Ambiente&#41;.</p>
+            <p className='p__one'>Na formação básica é emitido o certificado para habilitar o aluno ao atendimento, e será por meio de uma prova final que ocorrerá no fechamento do 2º módulo.</p>
+            {/* <div className='formCard__infos'>
                 <p><strong>Estudos:</strong></p>
                 <p>Embriologia/Filogênese/Fisiologia/Anatomia/Física Quântica/Epigenética/Memória Celular/Neurociência do Toque/Psiconeuroimunologia/Influências do Ambiente no Organismo &#40;Externo e Interno&#41;
                 </p>
@@ -30,7 +38,7 @@ function Formacoes() {
                     <li>Ectoderma – SN e Pele &#40;Circuitos Nervosos/Centros Nervosos&#41;</li>
                     <li>Endoderma – Mucosas &#40;Sistema Visceral e Órgãos&#41;</li>
                 </ul>
-            </div>
+            </div> */}
             <a href="whatsapp.com">Acesse o Módulo</a>
         </FormacoesCard>
         <FormacoesCard>
@@ -42,31 +50,14 @@ function Formacoes() {
                     alt="Formação Básica 2"
                 />
             </div>
-            <h3>2º Módulo &#40;NP1/NP2/NP3&#41;</h3>
-            <h4>Etiologias que afetam nosso organismo:</h4>
-            <div className='formCard__infos'>
-                <ul>
-                    <p>Ambiente Externo &#40;Sofridas&#41;</p>
-                    <li>- Matéria &#40;Infecções/Tóxicas/Contusões - Traumáticas/Obstrutivas&#41; </li>
-                    <li>- Vibratórias &#40;Ondas/Frequências&#41;</li>
-                    <li>- Toxicidades</li>
-                    <li>- Emoções</li>
-                </ul>
-                <ul>
-                    <p>Ambiente Interno &#40;Geradas/Produzidas&#41;</p>
-                    <li>Existencial</li>
-                    <li>Relacional</li>
-                    <li>Endoderma – Mucosas &#40;Sistema Visceral e Órgãos&#41;</li>
-                </ul>
-                <p>Individualidade – Essência do Ser</p>
-                <p>Capacidades e Desejos do Indivíduo com ele mesmo e em Relação aos outros &#40;Mundo&#41;</p>
-                <p>Terreno – Campo Morfogenético – Forma dos Genes</p>
-                <p>- História de Nossa Construção &#40;Familiar e com Meio Ambiente&#41;</p>
-                <div className='formCard__alert'>
-                    <p>Formação Básica – Certificação para Atendimentos</p>
-                    <p>Existe uma Prova ao Final desta formação &#40;2ºMódulo&#41;, para habilitar o Fisioterapeuta para os Atendimentos.</p>
-                </div>
-            </div>
+            <h3 className='title__solo'>1º Avançado <br />
+            P3/P6 (E1-E2) - Novas Etiologias (Etiologias Primárias)</h3>
+            <p><strong>Duração:</strong> 6 dias</p>
+            <h4>Estudos</h4>
+            <ul>
+                <li>Entropia: Etiologias que Alteram o Funcionamento do Corpo (Função Geral e Específica).</li>
+                <li>Negantropia: Construção do Corpo Físico e do Indivíduo em todas suas Dimensões (Psíquica/Afetiva/Mental/Intelectual)</li>
+            </ul>
             <a href="whatsapp.com">Acesse o Módulo</a>
         </FormacoesCard>
         <FormacoesCard>
@@ -78,12 +69,13 @@ function Formacoes() {
                     alt="Formação Avançada 1"
                 />
             </div>
-            <h3>1º Avançado - P3 – P6 &#40;E1-E2&#41;</h3>
-            <h4>Novas Etiologias &#40;Etiologias Primárias&#41; </h4>
-            <div className='formCard__infos'>
-                <p>Entropia – Etiologias que alteram o Funcionamento do Corpo &#40;Função Geral e Específica&#41;</p>
-                <p>Negantropia – Construção do Corpo Físico e do Indivíduo em todas suas Dimensões &#40;Psíquica/Afetiva/Mental/Intelectual&#41;</p>
-            </div>
+            <h3>2º Avançado <br />
+            P7/P8 (E3) – Proteções </h3>
+            <p><strong>Duração:</strong> 3 dias e meio</p>
+            <h4>Estudos</h4>
+            <ul>
+                <li>Adaptações e Mecanismos de Sobrevivência para o Organismo (Forças, Capacidades, Comportamental) em suas proteções em negantropia e entropia, corporal e intracelular.</li>
+            </ul>
             <a href="whatsapp.com">Acesse o Módulo</a>
         </FormacoesCard>
         <FormacoesCard>
@@ -95,13 +87,13 @@ function Formacoes() {
                     alt="Formação Avançada 2"
                 />
             </div>
-            <h3>2º Avançado – P7 – P8 (E3)</h3>
-            <h4>Proteções <br/>Adaptações e Mecanismos de sobrevivência para o Organismo.</h4>
-            <div className='formCard__infos'>
-                <p>- Forças</p>
-                <p>- Capacidades</p>
-                <p>- Comportamental</p>
-            </div>
+            <h3>3º Avançado <br />
+            P9 (E4-E5)</h3>
+            <p><strong>Duração:</strong> 4 dias e meio</p>
+            <h4>Estudos</h4>
+            <ul>
+                <li>Novos Estudos de Etiologias e Proteções. Estudos sobre Xenobióticos e suas possíveis alterações no organismo.</li>
+            </ul>
             <a href="whatsapp.com">Acesse o Módulo</a>
         </FormacoesCard>
         

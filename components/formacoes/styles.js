@@ -65,10 +65,11 @@ export const FormacoesCard = styled.div`
     h3 {
         text-align: center;
         margin-bottom: 2rem;
+        /* margin-top: 2rem; */
     }
     h4 {
-        text-align: center;
-        margin-bottom: 1rem;
+        /* text-align: center; */
+        margin: 1rem 0;
     }
     a {
         background-color: ${({theme}) => theme.secondary};
@@ -86,5 +87,22 @@ export const FormacoesCard = styled.div`
             background-color: ${({ theme }) => darken(0.1, theme.secondary)};
             color: ${({theme}) => theme.white};
         }
+    }
+
+    ul {
+        li {
+            margin: .5rem 0;
+        }
+    }
+
+    .p__one {
+        margin-bottom: 1rem;
+    }
+    .p__two {
+        margin: 1rem 0 2rem;
+        text-align: justify;
+    }
+    .title__solo {
+        margin-top: 0;
     }
 `
