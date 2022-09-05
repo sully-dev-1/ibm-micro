@@ -79,7 +79,7 @@ export const FormacoesCard = styled.div`
         text-align: center;
         display: flex;
         justify-content: center;
-        max-width: 170px;
+        max-width: 185px;
         margin: 2rem auto 0;
         transition: all 150ms ease-in;
 

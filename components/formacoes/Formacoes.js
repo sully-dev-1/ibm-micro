@@ -39,7 +39,7 @@ function Formacoes() {
                     <li>Endoderma – Mucosas &#40;Sistema Visceral e Órgãos&#41;</li>
                 </ul>
             </div> */}
-            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Acesse o Módulo</a>
+            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Inscreva-se</a>
         </FormacoesCard>
         <FormacoesCard>
             <div className='form__img'>
@@ -58,7 +58,7 @@ function Formacoes() {
                 <li>Entropia: Etiologias que Alteram o Funcionamento do Corpo (Função Geral e Específica).</li>
                 <li>Negantropia: Construção do Corpo Físico e do Indivíduo em todas suas Dimensões (Psíquica/Afetiva/Mental/Intelectual)</li>
             </ul>
-            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Acesse o Módulo</a>
+            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Inscreva-se</a>
         </FormacoesCard>
         <FormacoesCard>
             <div className='form__img'>
@@ -76,7 +76,7 @@ function Formacoes() {
             <ul>
                 <li>Adaptações e Mecanismos de Sobrevivência para o Organismo (Forças, Capacidades, Comportamental) em suas proteções em negantropia e entropia, corporal e intracelular.</li>
             </ul>
-            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Acesse o Módulo</a>
+            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Inscreva-se</a>
         </FormacoesCard>
         <FormacoesCard>
             <div className='form__img'>
@@ -94,7 +94,7 @@ function Formacoes() {
             <ul>
                 <li>Novos Estudos de Etiologias e Proteções. Estudos sobre Xenobióticos e suas possíveis alterações no organismo.</li>
             </ul>
-            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Acesse o Módulo</a>
+            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">Inscreva-se</a>
         </FormacoesCard>
         
     </FormacoesContainer>
