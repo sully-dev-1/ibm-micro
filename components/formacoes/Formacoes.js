@@ -52,7 +52,7 @@ function Formacoes() {
             </div>
             <h3 className='title__solo'>1º Avançado <br />
             P3/P6 (E1-E2) - Novas Etiologias (Etiologias Primárias)</h3>
-            <p><strong>Duração:</strong> 6 dias</p>
+            <p><strong>Duração:</strong> 7 dias</p>
             <h4>Estudos</h4>
             <ul>
                 <li>Entropia: Etiologias que Alteram o Funcionamento do Corpo (Função Geral e Específica).</li>
